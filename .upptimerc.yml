@@ -7,6 +7,10 @@ sites:
     url: $MINECRAFT_URL
     port: 25565
     check: "tcp-ping"
+  - name: Project Zomboid
+    url: $ZOMBOID_URL
+    port: 16261
+    check: "tcp-ping"
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -21,7 +25,7 @@ status-website:
     - name: "robots"
       content: "noindex"
   introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  introMessage: See below for game server status - ask for the URLs!
   navbar:
     - title: Status
       href: /
