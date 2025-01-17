@@ -7,10 +7,10 @@ sites:
     url: $MINECRAFT_URL
     port: 25565
     check: "tcp-ping"
-  - name: Project Zomboid
-    url: $ZOMBOID_URL
-    port: 16261
-    check: "tcp-ping"
+  # - name: Project Zomboid
+  #   url: $ZOMBOID_URL
+  #   port: 16261
+  #   check: "tcp-ping"
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
